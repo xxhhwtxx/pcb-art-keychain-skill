@@ -2,9 +2,19 @@
 
 把参考图片制作成装饰 PCB：**AI 在本地完成分色、制造几何、检查和 JavaScript，用户在嘉立创 EDA 专业版运行脚本。**
 
-默认无需 AI 操控浏览器，也无需提供 EDA 账号密码。完整 Skill、工具、模板、资料与复现案例都在下面的压缩包中，版本 **2.0.0**。
+默认无需 AI 操控浏览器，也无需提供 EDA 账号密码。完整 Skill、工具、模板、资料与复现案例都在下面的压缩包中，版本 **2.1.0**。
 
 **[下载完整 Skill](https://github.com/xxhhwtxx/pcb-art-keychain-skill/raw/refs/heads/main/pcb-art-keychain-skill.zip)** · [详细使用说明](使用说明.md)
+
+## v2.1.0 更新：沉金工艺要求
+
+**金色预览不代表生产订单已经选择沉金。** 图案铜层与阻焊开窗只确定露铜位置，实际下单仍须在“焊盘喷镀/表面处理”明确选择“沉金 ENIG”；没有额外需要补画的“沉金层”。
+
+- 生成设计时新增 `manufacturing_requirements.json` 和 `下单工艺要求.txt`，记录目标工艺、尺寸、板厚、阻焊色、丝印色及露铜面积。
+- EDA 脚本完成提示会读取目标表面处理，并提醒核对实际订单；不将本地检查或金色预览报告为“已做沉金”。
+- 新增实物无金色的排查指引：依次检查源图层、实际订单、提交的 Gerber 和生产稿。
+
+已有正确 PCB 无需重画。更新下载包后，让 AI 阅读新的 `SKILL.md` 即可使用；原有图案几何和展示图保持不变。
 
 ## 设计展示
 
@@ -52,6 +62,7 @@ python -m pip install -r scripts/requirements.txt
 3. 运行一次，等待结果提示；不要连续重复点击。
 4. 打开2D/3D，执行导入更新，设置实际工艺配色并查看两面。
 5. 核对 DRC 和保存状态，再从 EDA 导出工程及制板文件。
+6. 查看随包下单工艺要求，在实际订单选择并核对“沉金 ENIG”。脚本、JSON与预览均不替订单选择工艺。
 
 ## Skill 包含什么
 
@@ -62,6 +73,7 @@ python -m pip install -r scripts/requirements.txt
 | 本地生成参数与输出 | references/helpers.md |
 | 局部去毛刺与补丁 | references/repair.md |
 | EDA 导入、预览和保存 | references/eda-workflow.md |
+| 沉金要求与实际订单、实物无金色排查 | references/manufacturing-finish.md |
 | 面积核算与动态优惠核验 | references/free-pcb.md |
 | EDA API 签名 | references/eda-api.md |
 | 完整复现案例 | references/worked-example.md、assets/ |
