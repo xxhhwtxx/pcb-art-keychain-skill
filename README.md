@@ -86,3 +86,11 @@ python -m pip install -r scripts/requirements.txt
 ## English
 
 A reusable AI skill for decorative PCB artwork. Generate manufacturing geometry, previews, local repairs and an EasyEDA Pro creation script locally, then run the script manually in EDA. Download the complete ZIP and ask your AI to read `pcb-art-keychain/SKILL.md`. The gallery shows manufacturing previews, including custom extensions of the same workflow.
+
+## 许可证与复用
+
+本项目原创且有权授权的代码、模板和文档采用 [MIT License](LICENSE)，版权声明为 `Copyright (c) 2026 Wu tai`。可依 MIT 条款使用、修改、整合和再分发，包括用于其他开源插件；复用时保留相应版权声明及许可文本。
+
+**第三方角色图片、商标、预览图和衍生图案数据不包含在此授权内**，示例脚本中嵌入的角色图案数据也一样。依赖和第三方内容继续遵守各自许可。具体见 [授权范围说明](LICENSE_SCOPE.md)。Skill 下载包内已同步包含许可证和范围说明。
+
+Original project code, templates and written documentation are available under the MIT License. Third-party artwork, trademarks and derived artwork data are excluded; see [license scope](LICENSE_SCOPE.md).
