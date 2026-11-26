@@ -18,7 +18,43 @@
 
 ## 设计展示
 
-以下为已经完成设计的制造图形与工艺配色预览。
+以下图片为参考图对照、PCB 图形预览及配色示意，不代表实物打样结果或免费资格。金色效果仍需在实际订单中选择沉金；第三方角色素材及衍生图案数据的授权范围见 [说明](LICENSE_SCOPE.md)。
+
+### 新增样例
+
+九张图片按六组整理；每组先展示一张主图，补充对照收在下方展开区。点击图片可查看完整尺寸。
+
+| 史迪仔 · 尤克里里（蓝色配色示意） | 美乐蒂 · 蕾丝花篮 |
+|---|---|
+| ![史迪仔蓝色配色正反面预览](docs/gallery/stitch-blue-front-back.png) | ![美乐蒂紫白金正反面预览](docs/gallery/melody-purple-front-back.png) |
+
+| 气球小猪 · 红白金 | Hello Kitty · 蕾丝果篮 |
+|---|---|
+| ![气球小猪红白金正反面预览](docs/gallery/pig-balloon-red-front-back.png) | ![Hello Kitty果篮红白金正反面预览](docs/gallery/kitty-basket-red-front-back.png) |
+
+| 蜜罐小熊 · 白色区域取舍 | 草莓小猪 · 红紫配色 |
+|---|---|
+| ![蜜罐小熊原图及两种分色方案对照](docs/gallery/bear-honey-source-and-variants.png) | ![草莓小猪原图及红紫配色方案对照](docs/gallery/pig-strawberry-source-and-variants.png) |
+
+<details>
+<summary>展开原图对照与配色细节（3 张）</summary>
+
+史迪仔：原图、白色耳内区域方案与蓝色耳内区域方案。
+
+![史迪仔原图及耳内区域分色对照](docs/gallery/stitch-source-and-ear-variants.png)
+
+美乐蒂：原图、紫色方案与红色方案。
+
+![美乐蒂原图及红紫配色方案对照](docs/gallery/melody-source-and-colour-variants.png)
+
+气球小猪：原图与两种红色配色示意。
+
+![气球小猪原图及红色配色方案对照](docs/gallery/pig-balloon-source-and-colour-variants.png)
+
+</details>
+
+<details>
+<summary>展开早期样例：紫白金茶会、白金抱花与刀纹装饰板</summary>
 
 | 紫白金茶会挂件 | 白金抱花挂件 |
 |---|---|
@@ -29,6 +65,8 @@
 ![200mm卷草刀纹双面预览](ornate-knife-black-gold-white.png)
 
 ![200mm齿刃刀纹双面预览](toothed-knife-black-gold-white.png)
+
+</details>
 
 ## 给其他 AI 使用
 
